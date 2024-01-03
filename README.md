@@ -31,8 +31,7 @@ I also add the `.DS_Store` file to the repository's `.gitignore` file for macOS.
 
 ### LICENSE & references
 Moreover, I added a [LICENSE](./LICENSE) and referenced the instructions I used for this exercise in this README file - in particular including the repository in which these instructions reside.  
-This was done, because the coderefinery repository has a CC-BY 4.0 license and, at least for this repository, I did not find another citation.  
-Therefore, I want to ensure proper referencing and enable others to reuse content of this repository by knowing about the license.  
+This was done, because the coderefinery repository has a CC-BY 4.0 license and, at least for this repository, I did not find another citation. Therefore, I want to ensure proper referencing and enable others to reuse content of this repository by knowing about the license.  
 
 #### Adding a LICENSE
 In my work, I often use the CC-BY 4.0 license. This license is not provided as a choice by GitHub when setting up the repository. Therefore, I simply add a text file named LICENSE into the root of my repository and copy the text of the CC-BY 4.0 license into it.  
