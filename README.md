@@ -63,10 +63,13 @@ Next, I activate it at Zenodo (sandbox) by selecting it in the overview of publi
 After reloading the page, it should be shown under "Enabled Repositories".
 
 **sandbox**:
+tbc
 
 **zenodo**:
+tbc
 
 **doi**:
+tbc
 
 ## Step 3
 
