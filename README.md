@@ -73,9 +73,33 @@ tbc
 
 ## Step 3
 
+Going back to the doi-exercise repository, I selected `Releases` in the right sidebar and `Create a new release` on the next page.
+
+Choose a tag: Here you can enter a version for your repository. For continuous development carefully select the format of the selected version.
+I chose v1.0
+
+Target: This is the branch of the repository selected for the release. 
+I chose `main`.
+
+Add a `Release title` and optionally a more detailed descriptions including differences e.g to a previous release in subsequent releases can be added.
+
+Eventually conclude with `Publish release`.
+
+I changed back to Zenodo (sandbox) and refreshed the page. In my case the Releases were directly updated:
+
+![zenodo-release-screenshot](./images/zenodo-releases-screenshot.png)
 
 ## Step 4
 
+A badge at the begin of the README of the respective repository can directly guide you to the citation at Zenodo and displays the doi (here it is only the sandbox version for the test).
+
+To obtain the code that you have to insert into the README.md file, go to zenodo (sandbox) click on the badge for the repository and copy the line for `Markdown` - see also at the begin of this repository.
+
+After committing the changes, it will be displayed like [here](./README.md).
+
+## Other steps
+
+With this, your project is citable and you obtained a persistent identifier for it. However, you might want to add specific metadata which could not be captured by Zenodo or was not available from your GitHub account. You might also want to support the user with an easily extractable citation or update the version at Zenodo upon a new release. Below are some thoughts and suggestions on a supportive citation file.
 
 ## CITATION
 
@@ -89,4 +113,5 @@ When deciding for a citation file, according to the GitHub and Zenodo documentat
 
 <br/>
 
-If the chunks of text and collected information above were supportive for you, please ***cite and star ⭐ this repository*** :smile:
+If the chunks of text and collected information above were supportive for you, please ***cite and star ⭐ this repository*** :smile:  
+Thanx!
