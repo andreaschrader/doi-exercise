@@ -57,7 +57,7 @@ Here, I cloned the repository and continued as described above. If not just clon
 
 Eventually, after checking that everything is as expected, I do the pull request (PR) and merged the upload_example_data branch into the main branch and eventually delete the upload_example_data branch.
 
-## Step 2
+## Step 2 - Activating the GitHub repository at Zenodo
 As described [here](https://coderefinery.github.io/github-without-command-line/doi/), I headed over to the Zenodo Sandbox Instance. First, I logged into the Sandbox Instance of Zenodo which needs access to your public repository. If this is with another organization it will need access to the respective public repositories as well. You or the respective owner have to decide on this.  
 
 Next, I activate it at Zenodo (sandbox) by selecting it in the overview of public repositories (set to "on").
@@ -72,7 +72,7 @@ tbc
 **doi**:
 tbc
 
-## Step 3
+## Step 3 - Publish a release version of the repository at GitHub
 
 Going back to the doi-exercise repository, I selected `Releases` in the right sidebar and `Create a new release` on the next page.
 
@@ -90,7 +90,7 @@ I changed back to Zenodo (sandbox) and refreshed the page. In my case the Releas
 
 ![zenodo-release-screenshot](./images/zenodo-releases-screenshot.png)
 
-## Step 4
+## Step 4 - Add a DOI badge to the README at GitHub
 
 A badge at the begin of the README of the respective repository can directly guide you to the citation at Zenodo and displays the doi (here it is only the sandbox version for the test).
 
@@ -98,7 +98,7 @@ To obtain the code that you have to insert into the README.md file, go to zenodo
 
 After committing the changes, it will be displayed like [here](https://github.com/andreaschrader/doi-exercise/tree/main#DOI-badge).
 
-## Other steps
+## Further optional steps
 
 With this, your project is citable and you obtained a persistent identifier for it. However, you might want to add specific metadata which could not be captured by Zenodo or was not available from your GitHub account. You might also want to support the user with an easily extractable citation or update the version at Zenodo upon a new release. Below are some thoughts and suggestions on a supportive citation file.
 
