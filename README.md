@@ -1,4 +1,5 @@
-[![DOI](https://sandbox.zenodo.org/badge/738481995.svg)](https://sandbox.zenodo.org/doi/10.5072/zenodo.19273)
+[![DOI](https://sandbox.zenodo.org/badge/738481995.svg)](https://sandbox.zenodo.org/doi/10.5072/zenodo.19273)  
+⚠️ Please note, the DOI shown above here will not resolve as it was created in a sandbox instance. ⚠️
 
 # doi-exercise
 
