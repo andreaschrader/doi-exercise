@@ -78,7 +78,7 @@ tbc
 
 
 ## CITATION
-Eventually, according to GitHub and Zenodo documentation, a [`CITATION.cff`` file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) or a [`.zenodo.json` file](https://developers.zenodo.org/#github) can be added to the root of the repository in order to read proper metadata with respect to authors, affiliations and e.g. licenses and funding.  
+Eventually, according to GitHub and Zenodo documentation, a [`CITATION.cff` file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) or a [`.zenodo.json` file](https://developers.zenodo.org/#github) can be added to the root of the repository in order to read proper metadata with respect to authors, affiliations and e.g. licenses and funding.  
 
 Here, I did not add any of these in order to avoid an incorrect derived references as the instruction I followed is likely what is most useful for most users and should be cited primarily:  
 
