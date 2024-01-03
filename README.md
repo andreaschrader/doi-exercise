@@ -78,13 +78,15 @@ tbc
 
 
 ## CITATION
-Eventually, according to GitHub and Zenodo documentation, a [`CITATION.cff` file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) or a [`.zenodo.json` file](https://developers.zenodo.org/#github) can be added to the root of the repository in order to read proper metadata with respect to authors, affiliations and e.g. licenses and funding.  
 
-Here, I did not add any of these in order to avoid an incorrect derived references as the instruction I followed is likely what is most useful for most users and should be cited primarily:  
+Here, I did not yet add a citation file in order to avoid ambiguity with respect to the reference to the instruction I followed:  
+https://coderefinery.github.io/github-without-command-line/doi/  
 
-https://coderefinery.github.io/github-without-command-line/doi/
-
-The instructions worked smoothly in my hands. Thanks to the authors!
+The instructions worked smoothly in my hands. Thanks to the authors!  
 
 
-If the chunks of text and collected information above were supportive for you or of any help, please cite and/or star ⭐ this repository :smile:
+When deciding for a citation file, according to the GitHub and Zenodo documentation, a [`CITATION.cff` file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) or a [`.zenodo.json` file](https://developers.zenodo.org/#github) can be added to the root of the repository in order to read proper metadata with respect to authors, affiliations and e.g. licenses and funding.  
+
+<br/>
+
+If the chunks of text and collected information above were supportive for you or of any help, please ***cite and star ⭐ this repository*** :smile:
