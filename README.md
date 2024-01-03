@@ -46,7 +46,6 @@ tbc
 tbc
 
 ### Upload example data
-
 There are different ways to add data to a GitHub repository. For example, we can use the `Add file` button in the browser or adding a file to a local cloned version of the repository followed by the respective `git add`, `git commit -m "Added my_file."`and `git push`commands.
 Also, you can just drag an drop a file in [VS Code](https://code.visualstudio.com/) into the directory structure of your repository of choice.
 
@@ -55,6 +54,10 @@ Here, I cloned the repository and continued as described above. If not just clon
 Eventually, after checking that everything is as expected, I do the pull request (PR) and merged the upload_example_data branch into the main branch and eventually delete the upload_example_data branch.
 
 ## Step 2
+As described [here](), I headed over to the Zenodo Sandbox Instance. First, I logged into the Sandbox Instance of Zenodo which needs access to your public repository. If this is with another organization it will need access to the respective public repositories as well. You or the respective owner have to decide on this.  
+
+Next I activate it at Zenodo (sandbox) by selecting it in the overview of public repositories (set to "on").
+After reloading the page, it should be shown under "Enabled Repositories".
 
 ## Step 3
 
