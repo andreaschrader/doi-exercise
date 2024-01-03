@@ -61,6 +61,24 @@ As described [here](https://coderefinery.github.io/github-without-command-line/d
 Next, I activate it at Zenodo (sandbox) by selecting it in the overview of public repositories (set to "on").
 After reloading the page, it should be shown under "Enabled Repositories".
 
+**sandbox**:
+
+**zenodo**:
+
+**doi**:
+
 ## Step 3
 
+
 ## Step 4
+
+
+## CITATION
+Eventually, a [CITATION.cff file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) can be added, which I neglected here in order to avoid wrong references as the instruction I followed is likely what is most usefull for most users and should be cited primarily:
+
+https://coderefinery.github.io/github-without-command-line/doi/
+
+The instructions worked smoothly inm y hands. Thanks to the authors!
+
+
+If the chuncks of text in this README above also were of help, you can star ⭐ this repository - if you like :)
