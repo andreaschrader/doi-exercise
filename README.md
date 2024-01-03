@@ -16,8 +16,10 @@ Please note, links used here are as of January, 3rd, 2024 and might not be updat
 
 ## Step 1 - Create an example repository
 
-### Create the repository with a README
-In the first step this public repository was created with a description and this [`README.md file`](./README.md).  
+### Create the repository with a README.md
+In the first step this public repository was created with a description ("About") and this [`README.md file`](./README.md):
+
+![screenshot of the repository](./images/doi-exercise-screenshot.png)
 
 ### .gitignore
 I added a [`.gitignore`](./\.gitignore) file to avoid pushing files into this public repository which are not relevant for its content. For this, I selected the Visual Studio `.gitignore` version.  
