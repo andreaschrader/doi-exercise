@@ -30,7 +30,7 @@ I added a [`.gitignore`](./\.gitignore) file to avoid pushing files into this pu
 I also add the `.DS_Store` file to the repository's `.gitignore` file for macOS.  
 
 ### LICENSE & references
-Moreover, I added a [LICENSE](./LICENSE) and referenced the instructions I used for this exercise in this README file - in particular including the repository in which these instructons reside.  
+Moreover, I added a [LICENSE](./LICENSE) and referenced the instructions I used for this exercise in this README file - in particular including the repository in which these instructions reside.  
 This was done, because the coderefinery repository has a CC-BY 4.0 license and, at least for this repository, I did not find another citation.  
 Therefore, I want to ensure proper referencing and enable others to reuse content of this repository by knowing about the license.  
 
@@ -73,16 +73,45 @@ tbc
 
 ## Step 3
 
+Going back to the doi-exercise repository, I selected `Releases` in the right sidebar and `Create a new release` on the next page.
+
+Choose a tag: Here you can enter a version for your repository. For continuous development carefully select the format of the selected version.
+I chose v1.0
+
+Target: This is the branch of the repository selected for the release. 
+I chose `main`.
+
+Add a `Release title` and optionally a more detailed descriptions including differences e.g to a previous release in subsequent releases can be added.
+
+Eventually conclude with `Publish release`.
+
+I changed back to Zenodo (sandbox) and refreshed the page. In my case the Releases were directly updated:
+
+![zenodo-release-screenshot](./images/zenodo-releases-screenshot.png)
 
 ## Step 4
 
+A badge at the begin of the README of the respective repository can directly guide you to the citation at Zenodo and displays the doi (here it is only the sandbox version for the test).
+
+To obtain the code that you have to insert into the README.md file, go to zenodo (sandbox) click on the badge for the repository and copy the line for `Markdown` - see also at the begin of this repository.
+
+After committing the changes, it will be displayed like [here](./README.md).
+
+## Other steps
+
+With this, your project is citable and you obtained a persistent identifier for it. However, you might want to add specific metadata which could not be captured by Zenodo or was not available from your GitHub account. You might also want to support the user with an easily extractable citation or update the version at Zenodo upon a new release. Below are some thoughts and suggestions on a supportive citation file.
 
 ## CITATION
-Eventually, a [CITATION.cff file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) can be added, which I neglected here in order to avoid wrong references as the instruction I followed is likely what is most usefull for most users and should be cited primarily:
 
-https://coderefinery.github.io/github-without-command-line/doi/
+Here, I did not yet add a citation file in order to avoid ambiguity with respect to the reference to the instruction I followed:  
+https://coderefinery.github.io/github-without-command-line/doi/  
 
-The instructions worked smoothly inm y hands. Thanks to the authors!
+The instructions worked smoothly in my hands. Thanks to the authors!  
 
 
-If the chuncks of text in this README above also were of help, you can star ⭐ this repository - if you like :)
+When deciding for a citation file, according to the GitHub and Zenodo documentation, a [`CITATION.cff` file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) or a [`.zenodo.json` file](https://developers.zenodo.org/#github) can be added to the root of the repository in order to read proper metadata with respect to authors, affiliations and e.g. licenses and funding.  
+
+<br/>
+
+If the chunks of text and collected information above were supportive for you, please ***cite and star ⭐ this repository*** :smile:  
+Thanx!
