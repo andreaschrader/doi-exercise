@@ -6,6 +6,7 @@
 [![DOI](https://sandbox.zenodo.org/badge/738481995.svg)](https://sandbox.zenodo.org/doi/10.5072/zenodo.19273)  
 ⚠️ Please note, the DOI shown above will not resolve as it was created in a sandbox instance. ⚠️
 
+## Description
 This is a repository to train making a GitHub repository (project, data, code) public using a sandbox and following [instruction](https://coderefinery.github.io/github-without-command-line/doi/) which are part of this repository by coderefinery: https://github.com/coderefinery/github-without-command-line (CC-BY 4.0).
 The process is documented along these instructions and additional explanations are added along the way. 
 
