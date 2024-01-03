@@ -1,9 +1,10 @@
-[![DOI](https://sandbox.zenodo.org/badge/738481995.svg)](https://sandbox.zenodo.org/doi/10.5072/zenodo.19273)  
-⚠️ Please note, the DOI shown above here will not resolve as it was created in a sandbox instance. ⚠️
-
 # doi-exercise
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+## DOI badge
+[![DOI](https://sandbox.zenodo.org/badge/738481995.svg)](https://sandbox.zenodo.org/doi/10.5072/zenodo.19273)  
+⚠️ Please note, the DOI shown above will not resolve as it was created in a sandbox instance. ⚠️
 
 This is a repository to train making a GitHub repository (project, data, code) public using a sandbox and following [instruction](https://coderefinery.github.io/github-without-command-line/doi/) which are part of this repository by coderefinery: https://github.com/coderefinery/github-without-command-line (CC-BY 4.0).
 The process is documented along these instructions and additional explanations are added along the way. 
@@ -94,7 +95,7 @@ A badge at the begin of the README of the respective repository can directly gui
 
 To obtain the code that you have to insert into the README.md file, go to zenodo (sandbox) click on the badge for the repository and copy the line for `Markdown` - see also at the begin of this repository.
 
-After committing the changes, it will be displayed like [here](./README.md).
+After committing the changes, it will be displayed like [here](https://github.com/andreaschrader/doi-exercise/tree/main#DOI-badge).
 
 ## Other steps
 
