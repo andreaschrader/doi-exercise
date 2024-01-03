@@ -12,6 +12,7 @@ As I am anyway doing this exercise right now, I decided to leave some comments t
 - but are not very experienced with GitHub repositories so far over all.
 
 Maybe this is useful for anybody.
+Please note, links used here are as of January, 3rd, 2024 and might not be updated thereafter.
 
 ## Step 1 - Create an example repository
 
@@ -44,7 +45,12 @@ tbc
 
 ### Upload example data
 
-tbc
+There are different ways to add data to a GitHub repository. For example, we can use the `Add file` button in the browser or adding a file to a local cloned version of the repository followed by the respective `git add`, `git commit -m "Added my_file."`and `git push`comments.
+Also, you can just drag an drop a file in [VS Code](https://code.visualstudio.com/) into the directory structure of your repository of choice.
+
+Here, I cloned the repository and continued as described above. If not just cloned before the following steps are conducted, it makes sense to first pull all remote changes: `git pull`. As I protected my main branch, at least in this example, I first created a branch for this (`git switch -c upload_example_data`) performed the different steps and pushed as follows: (`git push --set-upstream origin upload_example_data`).
+
+Eventually, after checking that everything is as expected, I do the pull request (PR) and merged the upload_example_data branch into the main branch and eventually deleted the upload_example_data branch.
 
 ## Step 2
 
