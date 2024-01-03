@@ -43,11 +43,12 @@ In addition, to make it as easy as possible for others who might want to reuse a
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 ```
 
-**CC-BY 4.0**:
-tbc
+**CC-BY 4.0**:  
+This is one of the Creative Commons licenses. Creative Commons is an international nonprofit organization enabling "sharing of knowledge and culture in the public interest" (https://creativecommons.org/mission/). In brief, [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) allows you to share and adapt the material for any purpose given that you provide appropriate attribution and do not add additional restrictions as described [here](https://creativecommons.org/licenses/by/4.0/) (see [here](./LICENSE) for more details).  
 
-**root**:
-tbc
+**root**:  
+This is the top-level directory of a repository. All other directories are sub-directories of it.
+
 
 ### Upload example data
 There are different ways to add data to a GitHub repository. For example, we can use the `Add file` button in the browser or adding a file to a local cloned version of the repository followed by the respective `git add`, `git commit -m "Added my_file."`and `git push`commands.
@@ -63,21 +64,21 @@ As described [here](https://coderefinery.github.io/github-without-command-line/d
 Next, I activate it at Zenodo (sandbox) by selecting it in the overview of public repositories (set to "on").
 After reloading the page, it should be shown under "Enabled Repositories".
 
-**sandbox**:
-tbc
+**sandbox**:  
+A sandbox provides an isolated test environment in which the user can act without affecting the respective application or platform.
 
-**zenodo**:
-tbc
+**Zenodo**:  
+An open repository minting a doi for each submission. It is operated by [CERN](https://home.cern/) and developed within the [European OpenAIRE programme](https://www.openaire.eu/).
 
-**doi**:
-tbc
+**DOI**:  
+Digital Object Identifier, a persistent identifier usable by humans and machines.
 
 ## Step 3 - Publish a release version of the repository at GitHub
 
 Going back to the doi-exercise repository, I selected `Releases` in the right sidebar and `Create a new release` on the next page.
 
 Choose a tag: Here you can enter a version for your repository. For continuous development carefully select the format of the selected version.
-I chose v1.0
+I chose `v1.0`.  
 
 Target: This is the branch of the repository selected for the release. 
 I chose `main`.
