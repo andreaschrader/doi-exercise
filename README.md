@@ -89,4 +89,4 @@ When deciding for a citation file, according to the GitHub and Zenodo documentat
 
 <br/>
 
-If the chunks of text and collected information above were supportive for you or of any help, please ***cite and star ⭐ this repository*** :smile:
+If the chunks of text and collected information above were supportive for you, please ***cite and star ⭐ this repository*** :smile:
