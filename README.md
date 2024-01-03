@@ -30,7 +30,7 @@ I added a [`.gitignore`](./\.gitignore) file to avoid pushing files into this pu
 I also add the `.DS_Store` file to the repository's `.gitignore` file for macOS.  
 
 ### LICENSE & references
-Moreover, I added a [LICENSE](./LICENSE) and referenced the instructions I used for this exercise in this README file - in particular including the repository in which these instructons reside.  
+Moreover, I added a [LICENSE](./LICENSE) and referenced the instructions I used for this exercise in this README file - in particular including the repository in which these instructions reside.  
 This was done, because the coderefinery repository has a CC-BY 4.0 license and, at least for this repository, I did not find another citation.  
 Therefore, I want to ensure proper referencing and enable others to reuse content of this repository by knowing about the license.  
 
@@ -78,11 +78,13 @@ tbc
 
 
 ## CITATION
-Eventually, a [CITATION.cff file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) can be added, which I neglected here in order to avoid wrong references as the instruction I followed is likely what is most usefull for most users and should be cited primarily:
+Eventually, according to GitHub and Zenodo documentation, a [`CITATION.cff`` file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) or a [`.zenodo.json` file](https://developers.zenodo.org/#github) can be added to the root of the repository in order to read proper metadata with respect to authors, affiliations and e.g. licenses and funding.  
+
+Here, I did not add any of these in order to avoid an incorrect derived references as the instruction I followed is likely what is most useful for most users and should be cited primarily:  
 
 https://coderefinery.github.io/github-without-command-line/doi/
 
-The instructions worked smoothly inm y hands. Thanks to the authors!
+The instructions worked smoothly in my hands. Thanks to the authors!
 
 
-If the chuncks of text in this README above also were of help, you can star ⭐ this repository - if you like :)
+If the chunks of text and collected information above were supportive for you or of any help, please cite and/or star ⭐ this repository :smile:
