@@ -113,6 +113,12 @@ The instructions worked smoothly in my hands. Thanks to the authors!
 
 When deciding for a citation file, according to the GitHub and Zenodo documentation, a [`CITATION.cff` file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) or a [`.zenodo.json` file](https://developers.zenodo.org/#github) can be added to the root of the repository in order to read proper metadata with respect to authors, affiliations and e.g. licenses and funding.  
 
+**cff**:
+tbc
+
+**zenodo.json**:
+tbc
+
 <br/>
 
 If the chunks of text and collected information above were supportive for you, please ***cite and star ⭐ this repository*** :smile:  
