@@ -1,0 +1,47 @@
+authors:
+  - affiliation: Data Science and Management & Cluster of Excellence on Plant Sciences (CEPLAS), University of Cologne
+    alias: andreaschrader
+    city: Cologne
+    country: DE
+    family-names: Schrader
+    given-names: Andrea
+    orcid: "https://orcid.org/0000-0002-3879-7057"
+cff-version: 1.2.0
+date-released: "2024-01-03"
+identifiers:
+  - description: "This is the collection of archived snapshots of all versions of the repository andreaschrader/doi-exercise in the Zenodo Sandbox Instance"
+    type: doi
+    value:  10.5072/zenodo.19273
+  - description: "This is the archived snapshot of version v1.1 of the repository andreaschrader/doi-exercise in the Zenodo Sandbox Instance"
+    type: doi
+    value: 10.5072/zenodo.19368
+keywords:
+  - doi
+  - persistent identifier
+  - Zenodo
+  - publish
+  - metadata
+  - citation
+  - cff
+  - ".zenodo.json"
+license: CC-BY-4.0
+message: "If you use content of this repository, please cite it using these metadata and visit the README to learn how the reference was used as an instruction in this repository."
+references:
+  - authors:
+      - name: "The coderefinery team"
+      - family-names: Bast
+        given-names: Radovan
+        website: https://bast.fr/ 
+      - family-names: Darst
+        given-names: Richard K.
+        website: http://rkd.zgib.net
+    date-accessed: "2024-03-01"
+    license: CC-BY-4.0
+    repository: "https://github.com/coderefinery/github-without-command-line"
+    scope: "Cite this website if you want to reference the instructions on the doi-exercise followed. The authors provided are the contributors to this part of the respective repository."
+    title: github-without-command-line/doi
+    type: website
+    url: "https://coderefinery.github.io/github-without-command-line/doi/"
+repository-code: "https://github.com/andreaschrader/doi-exercise"
+title: "andreaschrader/doi-exercise"
+version: 1.1
