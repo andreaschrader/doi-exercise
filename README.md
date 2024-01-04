@@ -105,21 +105,21 @@ With this, your project is citable and you obtained a persistent identifier for 
 
 ## CITATION
 
-Here, I did not yet add a citation file in order to avoid ambiguity with respect to the reference to the instruction I followed:  
+I would like to clearly reference the instruction I followed and along which I wrote the text in this [README](./README.md):  
 https://coderefinery.github.io/github-without-command-line/doi/  
 
 The instructions worked smoothly in my hands. Thanks to the authors!  
 
+**cff**:  
+In addition to the persistent identifier, a citation file can be added to the root of the repository. Following the respective [GitHub CITATION.cff](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) documentation, a respectively created cff file in the root [can be considered by Zenodo](https://github.com/citation-file-format/citation-file-format/issues/374) in order to read proper metadata with respect to authors, affiliations and e.g. licenses and is displayed in the right side-bar at GitHub.  
 
-When deciding for a citation file, according to the GitHub and Zenodo documentation, a [`CITATION.cff` file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) or a [`.zenodo.json` file](https://developers.zenodo.org/#github) can be added to the root of the repository in order to read proper metadata with respect to authors, affiliations and e.g. licenses and funding.  
+Here, I selected from the options described in the [citation file format (cff) repository](https://github.com/citation-file-format/citation-file-format/tree/main)'s (doi: 10.5281/zenodo.1003149) [schema-guide.md](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md) to create a [`CITATION.cff`](./CITATION.cff) file for this repository.
 
-**cff**:
-tbc
-
-**zenodo.json**:
-tbc
+**zenodo.json**:  
+However, if a `.zenodo.json` file was created as well following [this documentation](https://developers.zenodo.org/#github), according to the [Zenodo FAQ on GitHub for CITATION.cff](https://help.zenodo.org/faq/#github), the `.zenodo.json metadata` is used for the Zenodo record.
 
 <br/>
 
 If the chunks of text and collected information above were supportive for you, please ***cite and star ⭐ this repository*** :smile:  
+
 Thanx!
