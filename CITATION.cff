@@ -43,5 +43,5 @@ references:
     type: website
     url: "https://coderefinery.github.io/github-without-command-line/doi/"
 repository-code: "https://github.com/andreaschrader/doi-exercise"
-title: "andreaschrader/doi-exercise"
+title: andreaschrader/doi-exercise
 version: 1.1
