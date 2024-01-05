@@ -13,10 +13,7 @@ date-released: "2024-01-03"
 identifiers:
   - description: "This is the collection of archived snapshots of all versions of the repository andreaschrader/doi-exercise in the Zenodo Sandbox Instance"
     type: doi
-    value:  10.5072/zenodo.19273
-  - description: "This is the archived snapshot of version v1.2.3 of the repository andreaschrader/doi-exercise in the Zenodo Sandbox Instance"
-    type: doi
-    value: 10.5072/zenodo.20657
+    value: 10.5072/zenodo.19273
 keywords:
   - doi
   - persistent identifier
@@ -28,21 +25,16 @@ keywords:
   - ".zenodo.json"
 license: CC-BY-4.0
 title: andreaschrader/doi-exercise
-version: 1.2.3
-doi: 10.5072/zenodo.20657
+version: 1.2.7
+doi: 10.5072/zenodo.19273
 references:
   - authors:
-      - family-names: Bast
-        given-names: Radovan
-        website: "https://bast.fr/"
-      - family-names: Darst
-        given-names: Richard K.
-        website: "http://rkd.zgib.net"
-      - name: "The coderefinery team"
-    date-accessed: "2024-03-01"
+      - name: "Coderefinery contributors"
+    date-accessed: "2024-01-03"
     license: CC-BY-4.0
     repository: "https://github.com/coderefinery/github-without-command-line"
     scope: "Cite this website if you want to reference the instructions on the doi-exercise followed. The authors provided are the contributors to this part of the respective repository."
     title: github-without-command-line/doi
     type: website
     url: "https://coderefinery.github.io/github-without-command-line/doi/"
+    year: 2020
