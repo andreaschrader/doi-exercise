@@ -400,3 +400,6 @@ FodyWeavers.xsd
 # Other
 .DS_Store
 Prep_Stage
+
+# Python
+venv/
