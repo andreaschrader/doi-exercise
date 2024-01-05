@@ -1,0 +1,25 @@
+{
+  "creators": [
+    {
+      "affiliation": "Data Science and Management & Cluster of Excellence on Plant Sciences (CEPLAS), University of Cologne",
+      "name": "Schrader, Andrea",
+      "orcid": "0000-0002-3879-7057"
+    }
+  ],
+  "keywords": [
+    "doi",
+    "persistent identifier",
+    "Zenodo",
+    "publish",
+    "metadata",
+    "citation",
+    "cff",
+    ".zenodo.json"
+  ],
+  "license": {
+    "id": "CC-BY-4.0"
+  },
+  "publication_date": "2024-01-03",
+  "title": "andreaschrader/doi-exercise",
+  "version": "1.2.7"
+}
