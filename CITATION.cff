@@ -34,10 +34,10 @@ references:
   - authors:
     - family-names: Bast
       given-names: Radovan
-      website: https://bast.fr/ 
+      website: "https://bast.fr/"
     - family-names: Darst
-      given-names: Richard K.        
-      website: http://rkd.zgib.net
+      given-names: Richard K.
+      website: "http://rkd.zgib.net"
     - name: "The coderefinery team"
     date-accessed: "2024-03-01"
     license: CC-BY-4.0
