@@ -16,8 +16,7 @@ identifiers:
     value:  10.5072/zenodo.19273
   - description: "This is the archived snapshot of version v1.2.3 of the repository andreaschrader/doi-exercise in the Zenodo Sandbox Instance"
     type: doi
-    value: Version v1.2.3
-10.5072/zenodo.20657
+    value: 10.5072/zenodo.20657
 keywords:
   - doi
   - persistent identifier
@@ -29,7 +28,7 @@ keywords:
   - ".zenodo.json"
 license: CC-BY-4.0
 title: andreaschrader/doi-exercise
-version: v1.2.3
+version: 1.2.3
 doi: 10.5072/zenodo.20657
 references:
   - authors:
