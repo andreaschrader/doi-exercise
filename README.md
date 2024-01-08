@@ -103,7 +103,7 @@ After committing the changes, it will be displayed like [here](https://github.co
 
 With this, your project is citable and you obtained a persistent identifier for it. However, you might want to add specific metadata which could not be captured by Zenodo or was not available from your GitHub account. You might also want to support the user with an easily extractable citation or update the version at Zenodo upon a new release. Below are some thoughts and suggestions on a supportive citation file.
 
-## CITATION
+## CITATIONS and other (transferred) metadata
 
 I would like to clearly reference the instruction I followed and along which I wrote the text in this [README](./README.md):  
 https://coderefinery.github.io/github-without-command-line/doi/  
