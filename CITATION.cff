@@ -25,6 +25,7 @@ keywords:
   - ".zenodo.json"
 license: CC-BY-4.0
 title: andreaschrader/doi-exercise
+type: other
 version: 1.4.1
 references:
   - authors:
