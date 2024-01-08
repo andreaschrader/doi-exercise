@@ -116,10 +116,35 @@ In addition to the persistent identifier, a citation file can be added to the ro
 Here, I selected from the options described in the [citation file format (cff) repository](https://github.com/citation-file-format/citation-file-format/tree/main)'s (doi: 10.5281/zenodo.1003149) [schema-guide.md](https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md) to create a [`CITATION.cff`](./CITATION.cff) file for this repository. Note, currently, only the types `software` and `dataset` can be selected and if non is selected, `software` is the default.
 
 **zenodo.json**:  
-However, if a `.zenodo.json` file was created as well following [this documentation](https://developers.zenodo.org/#github), according to the [Zenodo FAQ on GitHub for CITATION.cff](https://help.zenodo.org/faq/#github), the `.zenodo.json metadata` is used for the Zenodo record.
+However, if a [`.zenodo.json`](./\.zenodo.json) file was created as well, according to the [Zenodo FAQ on GitHub for CITATION.cff](https://help.zenodo.org/faq/#github), the `.zenodo.json metadata` is used for the Zenodo record.
+
+**Mandatory keys - .zenodo.json:**
+tbc
+
+**Problems experienced when testing both file types and trying to make references visible in the zenodo submission:**
+tbc
+
+**.zenodo.json "description" key:**
+tbc
+
+**.zenodo.json "notes" key:**
+tbc
+
+**.zenodo.json "references.scope" key:**
+tbc
 
 <br/>
 
-If the chunks of text and collected information above were supportive for you, please ***cite and star ⭐ this repository*** :smile:  
+---
+
+If chunks of text and collected information above were supportive for you, please ***cite and star ⭐ this repository*** :smile:  
 
 Thanx!
+
+<br/>
+
+Andrea Schrader - 01.2024  
+Academic Expert in Data Science for CEPLAS at University of Cologne, Germany  
+orcid: https://orcid.org/0000-0002-3879-7057  
+  
+[CEPLAS](www.ceplas.eu), the Cluster of Excellence on Plant Sciences, is funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany's Excellence Strategy, EXC-2048/1'  
