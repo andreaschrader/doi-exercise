@@ -37,3 +37,93 @@ references:
     type: website
     url: "https://coderefinery.github.io/github-without-command-line/doi/"
     year: 2020
+  - authors:
+      - name: "European Organization For Nuclear Research}"
+      - name: "OpenAIRE"
+    doi: 10.25495/7GXK-RD71
+    keywords:
+      - Physical sciences
+      - Publication
+      - Dataset
+    languages:
+      - en
+    publisher:
+      - name: "CERN"
+    title: Zenodo
+    type: generic
+    url: https://www.zenodo.org/
+    year: 2013
+  - authors:
+      - family-names: Druskat
+        given-names: Stephan
+        orcid: https://orcid.org/0000-0003-4925-7248
+      - family-names: Spaaks
+        given-names: Jurriaan H.
+        orcid: https://orcid.org/0000-0002-7064-4069
+      - family-names: Chue Hong
+        given-names: Neil
+        orcid: https://orcid.org/0000-0002-8876-7606
+      - family-names: Haines
+        given-names: Robert
+        orcid: https://orcid.org/0000-0002-9538-7919
+      - family-names: Baker
+        given-names: James
+        orcid: https://orcid.org/0000-0002-2682-6922
+      - family-names: Bliven
+        given-names: Spencer
+        orcid: https://orcid.org/0000-0002-1200-1698
+        email: spencer.bliven@gmail.com
+      - family-names: Willighagen
+        given-names: Egon
+        orcid: https://orcid.org/0000-0001-7542-0286
+      - family-names: Pérez-Suárez
+        given-names: David
+        orcid: https://orcid.org/0000-0003-0784-6909
+        website: https://dpshelio.github.io
+      - family-names: Konovalov
+        given-names: Olexandr
+        orcid: https://orcid.org/0000-0001-5299-3292
+    doi: 10.5281/zenodo.5171937
+    title: Citation File Format
+    version: 1.2.0
+    identifiers:
+      - type: doi
+        value: 10.5281/zenodo.1003149
+        description: The concept DOI for the collection containing all versions of the Citation File Format.
+      - type: doi
+        value: 10.5281/zenodo.5171937
+        description: The versioned DOI for the version 1.2.0 of the Citation File Format.
+    date-released: "2021-08-09"
+    keywords:
+      - citation file format
+      - CFF
+      - citation files
+      - software citation
+      - file format
+      - YAML
+      - software sustainability
+      - research software
+      - credit
+    license: "CC-BY-4.0"
+
+
+  - authors:
+      -
+    date-accessed: "2024-01-03"
+    license: 
+    repository:
+    scope:
+    title:
+    type:
+    url:
+    year:
+  - authors:
+      -
+    date-accessed: "2024-01-03"
+    license: 
+    repository:
+    scope:
+    title:
+    type:
+    url:
+    year:
