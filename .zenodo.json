@@ -7,20 +7,7 @@
             "orcid": "0000-0002-3879-7057"
         }
     ],
-    
-    
-    
-    
-    "description": "
-    This repository documents the training to publish a GitHub repository with a persistent identifier (doi) using the Zenodo sandbox in order to prepare for future Zenodo submissions and making selected GitHub repositories citable. 
-    Beyond this, also two files for citation relevant metadata, CITATION.cff and .zenodo.json 
-    are explored with respect to the Zenodo submission process, experienced obstacles were documented
-    and working examples are created. /n
-
-This work serves not only for own training but also to provide a respective documentation to ease such processes in the future. 
-as an 'Academic Expert in Data Science for CEPLAS at University of Cologne' - 
-'CEPLAS – Cluster of Excellence on Plant Sciences – is funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany´s Excellence Strategy – EXC-2048/1'"
-
+    "description": "This repository documents the training following the Coderefinery contributors' 'github-without-command-line' doi-exercise to publish a GitHub repository with a persistent identifier (doi) using the Zenodo sandbox in order to prepare for future Zenodo submissions and making selected GitHub repositories citable. Beyond this, also two files for citation (and other) relevant metadata are explored with respect to the Zenodo submission process (CITATION.cff and .zenodo.json). Experienced obstacles were documented and working examples were created for this repository. /n Role: 'Academic Expert in Data Science for CEPLAS at University of Cologne'. \n 'CEPLAS, Cluster of Excellence on Plant Sciences, is funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany's Excellence Strategy, EXC-2048/1'"
     "doi": "",
     "keywords": [
         "doi",
@@ -33,15 +20,14 @@ as an 'Academic Expert in Data Science for CEPLAS at University of Cologne' -
         ".zenodo.json"
     ],
     "license": "CC-BY-4.0",
-    "notes": "If you use content of this repository, please cite it using these metadata and visit the README of the andreaschrader/doi-exercise repository to learn how the references were used as an instruction in this repository.",
-    "publication_date": "2024-01-06",
+    "notes": "If you use content of this repository, please cite it using these metadata and visit the README of the andreaschrader/doi-exercise repository or the scope provided for the references in the CITATION.cff file to learn how the references were used.",
+    "publication_date": "2024-01-08",
     "references": [
         "Coderefinery contributors, 'github-without-command-line/doi' 2020 [Online]. Available: https://coderefinery.github.io/github-without-command-line/doi/. Accessed 03. Jan. 2024",
-        "European Organization For Nuclear Research and OpenAIRE, Zenodo, en, 2013. DOI: 10.25495/7GXK-RD71. [Online]. Available: https://www.zenodo.org/.",
         "Druskat, S., Spaaks, J. H., Chue Hong, N., Haines, R., Baker, J., Bliven, S., Willighagen, E., Pérez-Suárez, D., & Konovalov, A. (2021). Citation File Format (1.2.0). Zenodo. https://doi.org/10.5281/zenodo.5171937. Accessed 03. Jan. 2024",
-        zendodraft repo,
-        zenodo repo
-
+        "European Organization For Nuclear Research and OpenAIRE, Zenodo, en, 2013. DOI: 10.25495/7GXK-RD71. [Online]. Available: https://www.zenodo.org/.",
+        "European Organization For Nuclear Research and OpenAIRE, 'zenodo (GitHub repository)' 2013 [Online]. Available: https://github.com/zenodo/zenodo. Used file: https://github.com/zenodo/zenodo/blob/master/zenodo/modules/deposit/static/json/zenodo_deposit/deposit_form.json. Accessed 03. Jan. 2024",
+        "Sparks J. H. 'zendodraft/metadata-schema-zenodo (GitHub repository)' 2022 [Online]. Available: https://github.com/zenodraft/metadata-schema-zenodo. Used files: README.md and schema.json. Accessed 03. Jan. 2024"
     ],
     "resource_type": "other",
     "title": "andreaschrader/doi-exercise",
