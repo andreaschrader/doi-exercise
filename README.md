@@ -6,6 +6,9 @@
 [![DOI](https://sandbox.zenodo.org/badge/738481995.svg)](https://sandbox.zenodo.org/doi/10.5072/zenodo.19273)  
 ⚠️ Please note, the DOI shown above will not resolve as it was created in a sandbox instance. ⚠️
 
+**Final Zenodo version:**
+[![DOI](https://zenodo.org/badge/738481995.svg)](https://zenodo.org/doi/10.5281/zenodo.10475392)
+
 Please note, most release versions of this repository were used for tests.
 
 ## Description
