@@ -118,20 +118,81 @@ Here, I selected from the options described in the [citation file format (cff) r
 **zenodo.json**:  
 However, if a [`.zenodo.json`](./\.zenodo.json) file was created as well, according to the [Zenodo FAQ on GitHub for CITATION.cff](https://help.zenodo.org/faq/#github), the `.zenodo.json metadata` is used for the Zenodo record.
 
-**Mandatory keys - .zenodo.json:**
-tbc
+The eventually used `.zenodo.json` in this repository was inspired by [this repository](https://github.com/zenodraft/metadata-schema-zenodo), keys were selected from [this file](https://github.com/zenodo/zenodo/blob/f091af8f2d0bfac2fdaf53222160f8e037d5a0e6/zenodo/modules/deposit/static/json/zenodo_deposit/deposit_form.json) and upon inspecting the metadata show in the Zendodo sandbox instance upon deposition.
 
-**Problems experienced when testing both file types and trying to make references visible in the zenodo submission:**
-tbc
+## Experiences
+
+**Mandatory keys - .zenodo.json:**
+As derived from this [file](https://github.com/zenodo/zenodo/blob/f091af8f2d0bfac2fdaf53222160f8e037d5a0e6/zenodo/modules/deposit/static/json/zenodo_deposit/deposit_form.json) the following keys are mandatory for a valid `.zenodo.json` file:
+
+- publication_date
+- title
+- creators
+- description
+- access_right  
+  Depending on the respective access rights additional keys are required:
+  - open:
+    - license
+  - closed 
+  - embargoed: 
+    - license
+    - embargo_date
+  - restricted:
+    - access_contitions
+  
+**"references" key:**
+As I intended to cite relevant references used in this repository, a reference section was added to the [CITATION.cff file](./CITATION.cff). However, when creating a new release, the references were not extracted by zenodo from the CITATION.cff file.  
+
+To solve this, the `CITATION.cff` file was converted to a .zenodo.json file using the [cffconvert tool](https://github.com/citation-file-format/cffconvert) (DOI 10.5281/zenodo.1162057).  
+
+During conversion to a `.zenodo.json` file using cffconvert these were lost. The README of the repository also states that references are currently not converted.  
+
+Therefore, a `.zenodo.json` file was created manually.  
+
+>***Solution***  
+>
+>When adding a reference at zenodo, one string per reference is required. The only way to pass references in my hands was by creating references as strings beforehand and passing multiple references as a list of strings to zenodo.  
+> 
+>Optional: A reference string could be created from the CITATION.cff section.  
+>
+>The exemplary .zenodo.json file created for this repository as indicated above can be found [here](./\.zenodo.json).
 
 **.zenodo.json "description" key:**
-tbc
+
+Some test were done to derive from where zenodo currently derives the content for the description field.
+When no description is provided otherwise, in my hands the description of the respective release was displayed.
+However, when a description is provided in the .zenodo.json file in the root of the repository at submission, this information is overwriting the release description.
+
+>***Solution*** 
+>
+>I chose here to create a description in my .zenodo,json file which also contains a funding statement and thereby ensures that this is kept upon submission.
+>
+>If the description of the release should be added and an own .zenodo.json file is used, it needs to be added to this description.
 
 **.zenodo.json "notes" key:**
-tbc
+
+The message provided in the CITATION.cff file was extracted by zenodo as a note.
+When a .zenodo.json is used, this file is used instead of the CITATION.cff file if both are in the root.  
+
+>***Solution***
+>
+>Information for the note field can be passed in the .zenodo.json file with the "notes" key.
+
+**"type" key**  
+
+The type of a Github repository submitted to Zendodo using the CITATION.cff file is per default "software". The only other option, currently, seems to be "dataset" leaving little room for differentiation.  
+
+>***Solution***  
+>
+>This can be differentiated more when using the "type" key in the .zenodo.json file.
 
 **.zenodo.json "references.scope" key:**
-tbc
+
+When providing specific references, it might be desireable to indicate for what these were used.
+
+>***Solution***  
+>
+>Information on the individual references can be provided via the "scope" key in the "references" section of the `CITATION.cff` file. If both files are kept in the root of the repository, the .zenodo.json file is used for the Zenodo publication and the CITATION.cff file for the citation within the GitHub repository and holding additional information e.g. on the scope of a reference with respect to the respective repository.
 
 <br/>
 
@@ -139,9 +200,11 @@ tbc
 
 If chunks of text and collected information above were supportive for you, please ***cite and star ⭐ this repository*** :smile:  
 
-Thanx!
+Thanx!  
 
 <br/>
+
+---
 
 Andrea Schrader - 01.2024  
 Academic Expert in Data Science for CEPLAS at University of Cologne, Germany  
