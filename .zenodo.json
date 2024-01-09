@@ -7,7 +7,7 @@
             "orcid": "0000-0002-3879-7057"
         }
     ],
-    "description": "test"
+    "description": "test",
     "doi": "",
     "keywords": [
         "doi",
@@ -28,5 +28,5 @@
     "resource_type": "other",
     "title": "andreaschrader/doi-exercise",
     "upload_type": "other",
-    "version": "1.4.7"
+    "version": "1.4.8"
 }
