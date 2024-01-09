@@ -27,10 +27,11 @@
         "Druskat, S., Spaaks, J. H., Chue Hong, N., Haines, R., Baker, J., Bliven, S., Willighagen, E., Pérez-Suárez, D., & Konovalov, A. (2021). Citation File Format (1.2.0). Zenodo. https://doi.org/10.5281/zenodo.5171937. Accessed 03. Jan. 2024",
         "European Organization For Nuclear Research and OpenAIRE, Zenodo, en, 2013. DOI: 10.25495/7GXK-RD71. [Online]. Available: https://www.zenodo.org/.",
         "European Organization For Nuclear Research and OpenAIRE, 'zenodo (GitHub repository)' 2013 [Online]. Available: https://github.com/zenodo/zenodo. Used file: https://github.com/zenodo/zenodo/blob/master/zenodo/modules/deposit/static/json/zenodo_deposit/deposit_form.json. Accessed 03. Jan. 2024",
-        "Sparks J. H. 'zendodraft/metadata-schema-zenodo (GitHub repository)' 2022 [Online]. Available: https://github.com/zenodraft/metadata-schema-zenodo. Used files: README.md and schema.json. Accessed 03. Jan. 2024"
+        "Spaaks J. H. 'zendodraft/metadata-schema-zenodo (GitHub repository)' 2022 [Online]. Available: https://github.com/zenodraft/metadata-schema-zenodo. Used files: README.md and schema.json. Accessed 03. Jan. 2024",
+        "Spaaks, J. H., Klaver, T., Verhoeven, S., Druskat, S., & Leoncio Netto, W. (2021). cffconvert (2.0.0). Zenodo. https://doi.org/10.5281/zenodo.5521767. Accessed 03. Jan. 2024"
     ],
     "resource_type": "other",
     "title": "andreaschrader/doi-exercise",
     "upload_type": "other",
-    "version": "1.5.0"
+    "version": "1.4.13"
 }

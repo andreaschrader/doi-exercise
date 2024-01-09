@@ -25,7 +25,7 @@ keywords:
   - ".zenodo.json"
 license: CC-BY-4.0
 title: andreaschrader/doi-exercise
-version: 1.5.0
+version: 1.4.13
 references:
   - authors:
       - name: "Coderefinery contributors"
@@ -132,3 +132,41 @@ references:
     title: "zendodraft/metadata-schema-zenodo (GitHub repository)"
     type: generic
     year: 2022
+  - authors:
+      - affiliation: Netherlands eScience Center
+        family-names: Spaaks
+        given-names: Jurriaan H.
+        orcid: 0000-0002-7064-4069
+      - affiliation: Netherlands eScience Center
+        family-names: Klaver
+        given-names: Tom
+      - affiliation: Netherlands eScience Center
+        family-names: Verhoeven
+        given-names: Stefan
+        orcid: 0000-0002-5821-2060
+      - affiliation: "Humboldt-Universit\xE4t zu Berlin"
+        family-names: Druskat
+        given-names: Stephan
+        orcid: 0000-0003-4925-7248
+      - affiliation: University of Oslo
+        family-names: Leoncio Netto
+        given-names: Waldir
+    date-released: '2021-09-22'
+    doi: 10.5281/zenodo.5521767
+    keywords:
+      - bibliography
+      - BibTeX
+      - cff
+      - citation
+      - CITATION.cff
+      - CodeMeta
+      - EndNote
+      - RIS
+      - Citation File Format
+    license:
+      - apache-2.0
+    repository: "https://github.com/citation-file-format/cffconvert"
+    scope: "cffconvert was used to test if the first created CITATION.cff files were valid and for test conversion to .zenodo.json. The tool worked seamless but currently does not convert references that were important here. Therefore, the .zenodo.json file of this repository was created without it."
+    title: cffconvert
+    type: software
+    version: 2.0.0
