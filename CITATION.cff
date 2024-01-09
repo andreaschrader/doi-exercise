@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use content of this repository, please cite it using these metadata and visit the README to learn how the reference was used as an instruction in this repository."
-repository-code: "https://github.com/andreaschrader/doi-exercise"
+repository: "https://github.com/andreaschrader/doi-exercise"
 authors:
   - affiliation: Data Science and Management & Cluster of Excellence on Plant Sciences (CEPLAS), University of Cologne, Cologne, Germany
     alias: andreaschrader
@@ -9,7 +9,7 @@ authors:
     family-names: Schrader
     given-names: Andrea
     orcid: "https://orcid.org/0000-0002-3879-7057"
-date-released: "2024-01-08"
+date-released: "2024-01-09"
 identifiers:
   - description: "This is the collection of archived snapshots of all versions of the repository andreaschrader/doi-exercise in the Zenodo Sandbox Instance"
     type: doi
@@ -25,7 +25,6 @@ keywords:
   - ".zenodo.json"
 license: CC-BY-4.0
 title: andreaschrader/doi-exercise
-type: other
 version: 1.4.1
 references:
   - authors:
@@ -41,33 +40,33 @@ references:
   - authors:
       - family-names: Druskat
         given-names: Stephan
-        orcid: https://orcid.org/0000-0003-4925-7248
+        orcid: "https://orcid.org/0000-0003-4925-7248"
       - family-names: Spaaks
         given-names: Jurriaan H.
-        orcid: https://orcid.org/0000-0002-7064-4069
+        orcid: "https://orcid.org/0000-0002-7064-4069"
       - family-names: Chue Hong
         given-names: Neil
-        orcid: https://orcid.org/0000-0002-8876-7606
+        orcid: "https://orcid.org/0000-0002-8876-7606"
       - family-names: Haines
         given-names: Robert
-        orcid: https://orcid.org/0000-0002-9538-7919
+        orcid: "https://orcid.org/0000-0002-9538-7919"
       - family-names: Baker
         given-names: James
-        orcid: https://orcid.org/0000-0002-2682-6922
+        orcid: "https://orcid.org/0000-0002-2682-6922"
       - family-names: Bliven
         given-names: Spencer
-        orcid: https://orcid.org/0000-0002-1200-1698
+        orcid: "https://orcid.org/0000-0002-1200-1698"
         email: spencer.bliven@gmail.com
       - family-names: Willighagen
         given-names: Egon
-        orcid: https://orcid.org/0000-0001-7542-0286
+        orcid: "https://orcid.org/0000-0001-7542-0286"
       - family-names: Pérez-Suárez
         given-names: David
-        orcid: https://orcid.org/0000-0003-0784-6909
+        orcid: "https://orcid.org/0000-0003-0784-6909"
         website: https://dpshelio.github.io
       - family-names: Konovalov
         given-names: Olexandr
-        orcid: https://orcid.org/0000-0001-5299-3292
+        orcid: "https://orcid.org/0000-0001-5299-3292"
     date-released: "2021-08-09"
     doi: 10.5281/zenodo.5171937
     identifiers:
@@ -91,6 +90,7 @@ references:
     repository: https://github.com/citation-file-format/citation-file-format
     scope: "An example for a CITATION.cff file (this file) was created in and for this repository based on information provided in the respective repository linked in this reference. This reference here is the citation for the citation file format or cff!"
     title: Citation File Format
+    type: generic
     version: 1.2.0
   - authors:
       - name: "European Organization For Nuclear Research}"
@@ -103,11 +103,11 @@ references:
     languages:
       - en
     publisher:
-      - name: "CERN"
+      name: "CERN"
     scope: "A deposition at Zenodo is the aim of this exercise repository. This is the citation for Zenodo."
     title: Zenodo
-    type: "other"
-    url: https://www.zenodo.org/
+    type: generic
+    url: "https://www.zenodo.org/"
     year: 2013
   - authors:
       - name: "European Organization For Nuclear Research}"
@@ -115,11 +115,11 @@ references:
     date-accessed: "2024-01-03"
     license: GPL-2.0
     publisher:
-      - name: "CERN"    
+      name: "CERN"    
     repository: https://github.com/zenodo/zenodo
     scope: "From this repository only the deposit_form.json was used when selecting for the own .zenodo.json file example."
     title: "zenodo (GitHub repository)"
-    type: "other"
+    type: generic
     url: https://github.com/zenodo/zenodo/blob/master/zenodo/modules/deposit/static/json/zenodo_deposit/deposit_form.json
     year: 2013
   - authors:
@@ -130,5 +130,5 @@ references:
     repository: "https://github.com/zenodraft/metadata-schema-zenodo"
     scope: "The README.md was used for inspiration ad the schema.json file when selecting for the own .zenodo.json file example."
     title: "zendodraft/metadata-schema-zenodo (GitHub repository)"
-    type: "other"
+    type: generic
     year: 2022
