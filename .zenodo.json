@@ -21,7 +21,7 @@
     ],
     "license": "CC-BY-4.0",
     "notes": "If you use content of this repository, please cite it using these metadata and visit the README of the andreaschrader/doi-exercise repository or the scope provided for the references in the CITATION.cff file to learn how the references were used.",
-    "publication_date": "2024-01-08",
+    "publication_date": "2024-01-09",
     "references": [
         "Coderefinery contributors, 'github-without-command-line/doi' 2020 [Online]. Available: https://coderefinery.github.io/github-without-command-line/doi/. Accessed 03. Jan. 2024",
         "Druskat, S., Spaaks, J. H., Chue Hong, N., Haines, R., Baker, J., Bliven, S., Willighagen, E., Pérez-Suárez, D., & Konovalov, A. (2021). Citation File Format (1.2.0). Zenodo. https://doi.org/10.5281/zenodo.5171937. Accessed 03. Jan. 2024",
