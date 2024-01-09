@@ -25,7 +25,7 @@ keywords:
   - ".zenodo.json"
 license: CC-BY-4.0
 title: andreaschrader/doi-exercise
-version: 1.4.4
+version: 1.4.5
 references:
   - authors:
       - name: "Coderefinery contributors"
