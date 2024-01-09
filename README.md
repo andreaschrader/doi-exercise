@@ -3,13 +3,18 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ## DOI badge
-[![DOI](https://sandbox.zenodo.org/badge/738481995.svg)](https://sandbox.zenodo.org/doi/10.5072/zenodo.19273)  
-⚠️ Please note, the DOI shown above will not resolve as it was created in a sandbox instance. ⚠️
 
-**Final Zenodo version:**
+**At the Zenodo sandbox instance:**  
+[![DOI](https://sandbox.zenodo.org/badge/738481995.svg)](https://sandbox.zenodo.org/doi/10.5072/zenodo.19273)  
+
+**At Zenodo:**  
 [![DOI](https://zenodo.org/badge/738481995.svg)](https://zenodo.org/doi/10.5281/zenodo.10475392)
 
+<br/>
+
 Please note, most release versions of this repository were used for tests.
+
+---
 
 ## Description
 This is a repository to train making a GitHub repository (project, data, code) public using a sandbox and following [instruction](https://coderefinery.github.io/github-without-command-line/doi/) which are part of this repository by coderefinery: https://github.com/coderefinery/github-without-command-line (CC-BY 4.0).
