@@ -122,7 +122,7 @@ The eventually used `.zenodo.json` in this repository was inspired by [this repo
 
 ## Experiences
 
-**Mandatory keys - .zenodo.json:**
+**Mandatory keys - .zenodo.json:**  
 As derived from this [file](https://github.com/zenodo/zenodo/blob/f091af8f2d0bfac2fdaf53222160f8e037d5a0e6/zenodo/modules/deposit/static/json/zenodo_deposit/deposit_form.json) the following keys are mandatory for a valid `.zenodo.json` file:
 
 - publication_date
@@ -140,7 +140,7 @@ As derived from this [file](https://github.com/zenodo/zenodo/blob/f091af8f2d0bfa
   - restricted:
     - access_contitions
   
-**"references" key:**
+**"references" key:**. 
 As I intended to cite relevant references used in this repository, a reference section was added to the [CITATION.cff file](./CITATION.cff). However, when creating a new release, the references were not extracted by zenodo from the CITATION.cff file.  
 
 To solve this, the `CITATION.cff` file was converted to a .zenodo.json file using the [cffconvert tool](https://github.com/citation-file-format/cffconvert) (DOI 10.5281/zenodo.1162057).  
