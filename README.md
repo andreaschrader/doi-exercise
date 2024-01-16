@@ -220,4 +220,4 @@ Andrea Schrader - 01.2024
 Academic Expert in Data Science for CEPLAS at University of Cologne, Germany  
 orcid: https://orcid.org/0000-0002-3879-7057  
   
-[CEPLAS](www.ceplas.eu), the Cluster of Excellence on Plant Sciences, is funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany's Excellence Strategy, EXC-2048/1'  
+[CEPLAS](https://www.ceplas.eu), the Cluster of Excellence on Plant Sciences, is funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany's Excellence Strategy, EXC-2048/1'  
